@@ -19,8 +19,10 @@ namespace TechReturners.Tests
         {
             Person p1 = new Person("Peter", "Smith", "Manchester", 17);
             Person p2 = new Person("Susan", "Farmer", "Leeds", 18);
-            Assert.False(false, Exercise002.CanWatchFilm(p1, 18));
-            Assert.True(true, Exercise002.CanWatchFilm(p2, 15));
+            
+            Assert.False(Exercise002.CanWatchFilm(p1, 18));
+            Assert.True( Exercise002.CanWatchFilm(p2, 15));
+
         }
     }
 }
