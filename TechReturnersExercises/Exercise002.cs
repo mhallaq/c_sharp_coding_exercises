@@ -22,13 +22,13 @@ namespace TechReturners.Exercises
     {
         public static bool IsFromManchester( Person person ) 
         {
-            // Add your code here!
+            return person.city.ToLower() == "manchester";
             throw new NotImplementedException();
         }
 
         public static bool CanWatchFilm(Person person, int ageLimit) 
         {
-            // Add your code here!
+            return person.age >= ageLimit;
             throw new NotImplementedException();
         }
     }
