@@ -10,21 +10,18 @@ namespace TechReturners.Exercises
 
             string capitalWord =word.Substring(0,1).ToUpper()+ word.Substring(1);
             return (capitalWord);
-            throw new NotImplementedException();
         }
 
         public static String GenerateInitials(String firstName, String lastName) 
         {
             string nameInitials =  firstName.Substring(0,1)+'.'+lastName.Substring(0,1) ;
             return nameInitials;
-            throw new NotImplementedException();
         }
 
         public static double AddVat(double originalPrice, double vatRate) 
         {
             double grossPrice = Math.Round(originalPrice * vatRate/100 + originalPrice,2);
             return (grossPrice);
-            throw new NotImplementedException();
         }
 
         public static String Reverse(String sentence) 
@@ -36,7 +33,6 @@ namespace TechReturners.Exercises
                 reversedWord += wordArray[i].ToString();
             }
             return (reversedWord);
-            throw new NotImplementedException();
         }
 
         public static int CountLinuxUsers(List<User> users) 
@@ -50,7 +46,6 @@ namespace TechReturners.Exercises
                 }
             }
             return (count);
-            throw new NotImplementedException();
         }
     }
 }

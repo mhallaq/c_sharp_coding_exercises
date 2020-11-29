@@ -9,12 +9,12 @@ namespace TechReturners.Exercises
         public string city;
         public int age;
 
-        public Person( string v1, string v2, string v3, int v4)
+        public Person( string firstName, string lastName, string city, int age)
         {
-             this.firstName=v1;
-             this.lastName=v2;
-             this.city=v3;
-             this.age=v4;
+             this.firstName=firstName;
+             this.lastName=lastName;
+             this.city=city;
+             this.age=age;
         }
     }
 
